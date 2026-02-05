@@ -65,7 +65,7 @@ function evaluateGame() {
     }
 
     if (!boardData.includes("")) {
-        statusText.innerText = "The Game is a Draw!";
+        statusText.innerText = "The Game is a Tie!";
         isGameActive = false;
         return;
     }
